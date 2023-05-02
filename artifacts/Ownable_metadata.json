@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hardhat/contracts/core/For5.1/Ownable.sol": "Ownable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hardhat/contracts/core/For5.1/Context.sol": {
+			"keccak256": "0x72cd3e9bac22fd52164fdea2eda055229032e5c22343dcf298bad73d2ee94ddd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://108c5c6a348a98b2adf5d4cb6311ed7907ef2be7c01a030bfa4be985ad795aa8",
+				"dweb:/ipfs/QmRYUeEFF3AqLNyNnz2rY4XfkywnMfBVCAkkiPtnwRfTgE"
+			]
+		},
+		"Hardhat/contracts/core/For5.1/Ownable.sol": {
+			"keccak256": "0xe1d6e0b699692f3d5ae5feacb0eb7ce09f78f156ed3ec6ab7119e71fae969784",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://774114bbb0a5b02d4e0c3cde9f760834a18aeef1099e2ccaf64b7284e7f71bad",
+				"dweb:/ipfs/QmZr6H7sgCdCFayD3NT1CiKQ2qwhvMr3ipiMmWrwYoYWny"
+			]
+		}
+	},
+	"version": 1
+}

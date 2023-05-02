@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "Paused",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "Unpaused",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "paused",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hardhat/contracts/core/For5.1/abstract_contract/Pausable.sol": "Pausable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hardhat/contracts/core/For5.1/abstract_contract/Context.sol": {
+			"keccak256": "0x2c1fa90a6afa19761117e02626479a97cbe0d9c2f8f6fcb9c985947e2a1d0a5a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4d8ac66779a36b1c195365f8209a9664660a0f393d26c5a86f1cba535cd5a7b5",
+				"dweb:/ipfs/QmWLfuBwRNqfRbTHtZGYoJFvzD9gdVRdrfVa5556yXxbBD"
+			]
+		},
+		"Hardhat/contracts/core/For5.1/abstract_contract/Pausable.sol": {
+			"keccak256": "0x69d7f9c1154aa79123dcfbf5990c7767243688d400fe7a670927d13f48970203",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dad9a7ebc624dbaed6e16292c58bb3b5fdb9b600ef5718940b30b65b01c3346",
+				"dweb:/ipfs/QmPvGo33x6aLto4Zikyh4tJ6Lqcf3RMF2Jc9zLwym52A2n"
+			]
+		}
+	},
+	"version": 1
+}
